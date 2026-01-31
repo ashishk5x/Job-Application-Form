@@ -1,0 +1,62 @@
+/* file: styles.css */
+body {
+  background-color: midnightblue;
+  color: whitesmoke;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff1a;
+  border-radius: 10px;
+}
+
+/* Inputs & textarea */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  background-color: #ffffff1a;
+  color: whitesmoke;
+}
+
+/* Focus state (clean & standard) */
+input:focus,
+textarea:focus {
+  border-color: dodgerblue;
+  outline: none;
+}
+
+/* Radio group */
+.radio-group {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+/* Checked radio button styling */
+.radio-group input[type="radio"]:checked {
+  border-color: lightgreen;
+  background-color: lightgreen;
+}
+
+/* Button */
+button {
+  background-color: royalblue;
+  color: whitesmoke;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Hover state */
+button:hover {
+  background-color: midnightblue;
+}
